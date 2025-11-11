@@ -1,5 +1,7 @@
 # TP7DPBO2425C2
 
+Saya Niha April Miani dengan NIM 2402567 mengerjakan Tugas Praktikum 7 dalam mata kuliah Desain Pemogramana Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+
 # Lab Borrowing Management System 
 Project  sebuah aplikasi sederhana untuk mengelola peminjaman alat laboratorium.
  Website dibangun menggunakan:
@@ -49,7 +51,7 @@ Tabel ini mencatat setiap peminjaman alat.
 Dengan demikian, tabel loan menjadi penghubung antara item dan student.
 
 # Flow / Alur Program 
- 1. index.php sebagai Router Utama
+1. index.php sebagai Router Utama
 index.php bertugas menentukan halaman mana yang harus ditampilkan.
 Jika URL mengandung:
 - ?page=item → tampilkan halaman item
@@ -60,7 +62,7 @@ index.php juga meng-include:
 - footer.php di bagian bawah
 Sehingga seluruh halaman konsisten tampilannya.
 
- 2. Folder class/ – Model OOP
+2. Folder class/ – Model OOP
 Semua proses database dilakukan di dalam class.
 Di sini terdapat 3 class:
 
@@ -90,7 +92,7 @@ Mengelola transaksi peminjaman:
 - delete
 Loan adalah tabel yang memiliki relasi ke 2 tabel lain.
 
- 3. Folder view/ – Halaman CRUD
+3. Folder view/ – Halaman CRUD
 Setiap entitas memiliki file tampilan sendiri:
 
 a. item_view.php
