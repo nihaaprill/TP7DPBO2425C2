@@ -143,7 +143,8 @@ User klik menu → index.php menentukan halaman → view tampil
 Dan semua fungsi CRUD bekerja lengkap pada:
 - Item
 - Student
-- Loan.
+- Loan
+  
 Dengan seluruh query database menggunakan prepared statement.
 
 # Dokumentasi
