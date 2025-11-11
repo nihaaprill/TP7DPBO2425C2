@@ -147,4 +147,18 @@ Dan semua fungsi CRUD bekerja lengkap pada:
 Dengan seluruh query database menggunakan prepared statement.
 
 # Dokumentasi
+## Record CRUD ##
+![Deskripsi gambar](Dokumentasi/tp7.mp4)
+
+## Item ##
+![Deskripsi gambar](Dokumentasi/item.png)
+
+## Student ##
+![Deskripsi gambar](Dokumentasi/student.png)
+
+## Loan ##
+![Deskripsi gambar](Dokumentasi/loan.png)
+
+
+
 
