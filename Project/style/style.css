@@ -1,0 +1,148 @@
+/* ==== GLOBAL STYLE ==== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F3F4F6;
+    color: #1F2937;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1F2937;
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4B5563;
+    padding: 15px 30px;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+
+/* ==== PAGE CONTAINER ==== */
+.container {
+    padding: 35px 50px;
+}
+
+/* ==== FORM ==== */
+form {
+    margin-bottom: 25px;
+}
+
+form input,
+form select {
+    padding: 10px 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-right: 10px;
+    background: white;
+    font-size: 14px;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    border-color: #6B7280;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4B5563;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #374151;
+}
+
+/* ==== TABLE ==== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #6B7280;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #E5E7EB;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #F9FAFB;
+}
+
+/* ==== ACTION BUTTONS ==== */
+.btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn-edit {
+    background: #16A34A;   /* green */
+}
+
+.btn-edit:hover {
+    background: #15803D;
+}
+
+.btn-delete {
+    background: #DC2626;   /* red */
+}
+
+.btn-delete:hover {
+    background: #B91C1C;
+}
+
+/* ==== FOOTER ==== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #4B5563;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
