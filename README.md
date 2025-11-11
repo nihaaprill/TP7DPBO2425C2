@@ -148,7 +148,7 @@ Dengan seluruh query database menggunakan prepared statement.
 
 # Dokumentasi
 ## Record CRUD ##
-![Deskripsi gambar](Dokumentasi/tp7.mp4)
+![Deskripsi gambar](Dokumentasi/tp7.gif)
 
 ## Item ##
 ![Deskripsi gambar](Dokumentasi/item.png)
